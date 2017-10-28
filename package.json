@@ -1,12 +1,13 @@
 {
-  "name": "mongo_homework",
+  "name": "nyt-react-search",
   "version": "1.0.0",
-  "description": "",
+  "description": "NYT-React-Search - Homework Week-11 (Sunday)",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "",
+  "author": "Larry S. Peteet",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.16.2",
@@ -14,6 +15,15 @@
     "cheerio": "^1.0.0-rc.2",
     "express": "^4.16.1",
     "express-handlebars": "^3.0.0",
-    "mongoose": "^4.12.1"
-  }
+    "mongoose": "^4.12.1",
+    "request": "^2.83.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lpeteet/NYT-React-Search.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lpeteet/NYT-React-Search/issues"
+  },
+  "homepage": "https://github.com/lpeteet/NYT-React-Search#readme"
 }
